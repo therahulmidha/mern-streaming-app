@@ -1,0 +1,78 @@
+.main-content {
+  /* border: 5px solid green; */
+  min-height: 80vh;
+}
+
+.center-horizontally {
+  display: flex;
+  justify-content: center;
+}
+
+.center-vertically {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.generic-input {
+  margin: 10px 5px;
+  padding: 5px;
+  width: 20vw;
+}
+
+.generic-btn {
+  font-weight: bolder;
+  padding: 10px;
+  color: #fff;
+  width: 20vw;
+}
+
+.social-btn {
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  font-weight: bolder;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 20vw;
+}
+
+.social-btn * {
+  margin-right: 10px;
+}
+
+.facebook-btn {
+  background-color: #1877f2;
+  color: #fff;
+  border: 1px solid #1877f2;
+}
+
+.google-btn {
+  background-color: #fff;
+  color: #484c49;
+  border: 1px solid #dddfe3;
+}
+
+.submit-input {
+  background-color: rgba(26, 160, 23, 0.788);
+  border: rgba(26, 160, 23, 0.788);
+  border-radius: 10px;
+  cursor: pointer;
+  width: 20vw;
+}
+
+.disabled-input {
+  background-color: grey;
+  border: grey;
+  cursor: not-allowed;
+}
+
+.small-text {
+  font-size: small;
+  margin: 5px;
+}
+
+a {
+  color: blue;
+}

@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  background-color: #4781ff;
+}
+
+.header h2 {
+  margin-left: 10vw;
+}
+
+.header h2:hover {
+  color: #fff;
+}
+
+.sub-header {
+  background-color: #414141;
+  color: #fff;
+}
+
+.sub-header h3 {
+  margin-left: 10vw;
+}
+
+.header-options * {
+  display: block;
+  margin: 0 10px;
+}
+
+.header-options button {
+    background-color: #414141;
+    color: #fff;
+    border: none;
+}
+
+.header-options {
+  margin-right: 10vw;
+  display: flex;
+  align-items: center;
+}
+
+.header-title {
+  text-decoration: none;
+  color: #fff;
+}

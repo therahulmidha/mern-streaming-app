@@ -1,0 +1,8 @@
+.popular-titles {
+    display: flex;
+    margin-left: 10vw;
+}
+
+.popular-title {
+    margin: 10px;
+}

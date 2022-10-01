@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #1e1e1e;
+  color: #6d686e;
+}
+
+.footer-row {
+  display: row;
+  margin: 10px 15vw;
+}
+
+.footer-row a,
+.footer-row p {
+  text-decoration: none;
+  color: inherit;
+  font-size: small;
+}
+
+.footer-row-social {
+  margin-bottom: 30px;
+  font-size: x-large;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.footer-row-social img {
+    width: 10vw;
+    border: 1px solid grey;
+}
