@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
 
@@ -10,7 +9,7 @@ export const Header = () => {
           <h2>DEMO Streaming</h2>
         </Link>
         <div className="header-options">
-          <a>Login</a>
+          <a href="/">Login</a>
           <button>Start your free trial</button>
         </div>
       </div>

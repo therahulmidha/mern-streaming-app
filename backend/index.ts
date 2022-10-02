@@ -5,8 +5,7 @@ import { loadEnvs } from "./config/envs";
 import { MongoConnect } from "./database/mongo_connect";
 import { handleFailures } from "./startup/failure_handler";
 import { initializeRoutes } from "./startup/route_handler";
-// TODO: Use types for :any declarations
-// TODO: Doc comments
+
 (async () => {
   loadEnvs();
 

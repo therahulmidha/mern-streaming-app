@@ -11,7 +11,7 @@ export const Home = () => {
       </div>
 
       <div className="popular-title">
-        <Link to="/movies">
+        <Link to="/movie">
           <img src="/images/movies.png" alt="movies" />
         </Link>
         <p>Popular Movies</p>

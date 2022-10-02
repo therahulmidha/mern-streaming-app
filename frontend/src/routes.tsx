@@ -8,7 +8,6 @@ interface RouteAttributes {
   jsx: JSX.Element;
 }
 
-// TODO: path and jsx to be moved to a constants file
 const routes: RouteAttributes[] = [
   {
     path: "/*",

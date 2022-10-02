@@ -6,7 +6,6 @@ export function errorHandler(
   res: Response,
   next: NextFunction
 ) {
-  // TODO: Implement winston logging with rotation
   console.log(err);
   // Handling incorrect json format found in request body
   if (

@@ -1,6 +1,5 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import { Titles } from "./components/Titles/Titles";
 import { Footer } from "./components/UI/Footer";
 import { Header } from "./components/UI/Header";
 import routes from "./routes";
